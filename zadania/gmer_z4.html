@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+            table {
+ width: 100%;
+ border-collapse: collapse;
+ 
+}
+caption{
+   border: solid 3px #000000;
+   border-bottom: none;
+   color: #000000;
+   font-family: 'arial';
+   font-size: 30px;
+   background-color: rgb(12, 193, 248) 200, 206)
+}
+table, th, td, tr {
+ border: 1px solid rgb(0, 0, 0);
+ padding: 8px;
+ text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <h1> 
+            Sposoby podłączania CSS do kodu strony WWW 
+        </h1>
+       <table>
+        <tr>
+            <td>
+            Zewnętrzny arkusz stylów <br>
+            <textarea >
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+            </textarea><br>
+            </td>
+        </tr>
+        <tr>
+<td>
+Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli dopisanie arkusza do wybranego bloku treści strony <br>
+<textarea><selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor></textarea>
+</td>
+        </tr>
+        <td>
+            Wewnętrzny arkusz stylów<br>
+            <textarea>
+<head>
+<style type="text/css">
+selektor1 { cecha: wartość; cecha2: wartość2... }
+selektor2 { cecha: wartość; cecha2: wartość2... }
+</style>
+</head>
+            </textarea>
+
+        </td>
+        <tr>
+            <td>
+            Alternatywny arkusz stylów.<br>
+            <textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+            </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Import arkusza stylów. <br>
+                <textarea>
+<style type="text/css">
+@import url(adres zewnętrznego arkusza stylów);
+</style>
+                </textarea>
+            </td>
+        </tr>
+        
+       </table>
+        
+    </body>
+</html>
