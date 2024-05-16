@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <style>
+    .example-1 {
+  background-color: silver;
+}
+
+.red-text {
+  color: red;
+  font-size: 40px;
+}
+
+.example-2 span {
+  color: green;
+  font-size: 25px;
+}
+
+.example-3 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.example-3 li {
+  margin-bottom: 10px;
+}
+
+.purple-text {
+  color: rgb(128, 0, 128);
+}
+
+.pink-text {
+  color: rgb(255, 105, 180);
+}
+
+.light-blue-text {
+  color: rgb(173, 216, 230);
+}
+
+.large-text {
+  font-size: 40px;
+}
+  </style>
+  <title>Zadanie 19</title>
+</head>
+<body>
+  <div class="example-1">
+    <span class="red-text">
+      <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest czerwone na srebrnym tle</b>,
+      a to jest zwykły tekst - również wewnątrz DIV i SPAN.
+    </span>
+    To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest czerwony, ale ma srebrne tło.
+    <p class="large-text">A to jest akapit (element blokowy) w ramach DIV.</p>
+  </div>
+  <div class="example-2">
+    <span class="red-text">
+      <b>To jest pogrubienie (element wyświetlany w linii) w ramach SPAN</b>, a to jest zwykły tekst - również wewnątrz span.
+    </span>
+  </div>
+  <div class="example-3">
+    <ol>
+      <li class="purple-text"><span class="black-text">Punkt pierwszy</span></li>
+      <li class="pink-text"><span class="black-text">Punkt drugi</span></li>
+      <li class="light-blue-text"><span class="black-text">Punkt trzeci</span></li>
+    </ol>
+  </div>
+</body>
+</html>

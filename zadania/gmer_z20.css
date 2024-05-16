@@ -1,0 +1,68 @@
+/* style.css */
+
+.block-first {
+    background-color: #FFFDD0;
+    width: 40%;
+    height: 100px;
+}
+
+.block-first p {
+    color: orange;
+    font-size: 20pt;
+    font-family: Arial;
+}
+
+.block-second {
+    background-color: #FFC0CB; /* magenta */
+    width: 80%;
+    height: 150px;
+}
+
+.block-second p {
+    font-size: 20pt;
+}
+
+.block-second i {
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.block-second strike {
+    color: red;
+    font-size: 20pt;
+    text-decoration: line-through;
+}
+
+.block-second u {
+    color: purple;
+    font-size: 20pt;
+    text-decoration: overline;
+}
+
+.block-third {
+    background-color: #C6F4D6; /* zieleń wiosenna */
+    width: 100%;
+    height: 300px;
+}
+
+.block-third h1 {
+    color: blue;
+    font-size: 30pt;
+    text-decoration: underline;
+}
+
+.block-third ol {
+    font-size: 25pt;
+    color: blue;
+}
+
+.block-third ol li:nth-child(2) {
+    font-size: 20pt;
+    color: red;
+}
+
+.block-third ol li:nth-child(3) {
+    font-size: 15pt;
+    color: gray;
+}
