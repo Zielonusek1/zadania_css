@@ -1,11 +1,11 @@
 p#pogrubienie_gmerek {
-    font-size: 32;
+    font-size: 32px;
     color: #7d3223;
     font-weight: bold;
   }
   
   p#pochylona_gmerek {
-    font-size: 37;
+    font-size: 37px;
     color: #de9664;
     font-style: italic;
   }
@@ -23,18 +23,18 @@ p#pogrubienie_gmerek {
   }
   
   p#mono_gmerek {
-    font-size: 42;
+    font-size: 42px;
     color: #113a23;
     font-family: monospace;
   }
   
   p#powiekszenie_gmerek {
-    font-size: 47;
+    font-size: 47px;
     color: #752095;
   }
   
   p#pomniejszenie_gmerek {
-    font-size: 32;
+    font-size: 32px;
     color: #175209;
     font-size: 90%;
   }
